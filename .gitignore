@@ -1,0 +1,20 @@
+# Data — never commit
+**/data_*/
+**/*.npy
+**/*.csv
+
+# Runtime artifacts
+**/runs/workspaces/
+**/runs/job_train_*/
+**/runs/job_gs_*/
+**/runs/state.json
+**/runs/benchmark.log
+**/checkpoints/
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+**/*.log
+
+# Credentials
+**/.env
+!**/.env.template
